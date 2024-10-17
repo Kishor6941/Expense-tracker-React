@@ -1,0 +1,25 @@
+.digital-watch-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    background-color: #ADDFFF;
+    padding: 10px;
+    border-radius: 5%;
+    height: 30vh;
+
+    .digital-watch-wrapper{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        background-color:#DAB1DA;
+        border-radius: 4%;
+        margin: auto;
+        padding: 10px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+        .am-pm{
+            margin-left: 3px;
+        }
+        
+    }
+}

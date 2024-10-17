@@ -13,7 +13,7 @@ const ExpenseTForm = () => {
     if(expenseName !== "" && expenseAmount !== "") {
         setExpense([...expense, { name: expenseName, amount: expenseAmount }]);
     } else {
-        alert("Please enter all the details");
+         alert("Please enter all the details");
     }
     setExpenseName("");
     setExpenseAmount("");

@@ -1,0 +1,24 @@
+.navbar {
+  padding: 10px;
+  background-color: black;
+
+  ul {
+    display: flex;
+    li {
+      display: flex;
+      margin-right: 20px;
+      list-style-type: none;
+      a {
+        margin-top: 4px;
+        text-decoration: none;
+        font-size: 17px;
+        color: white;
+      }
+    }
+  }
+
+  .active {
+    border-bottom: 0.2rem solid green;
+    padding-bottom: 2px;
+  }
+}
